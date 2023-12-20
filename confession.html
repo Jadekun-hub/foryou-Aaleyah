@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aleyah</title>
+    <link rel="stylesheet" href="confession.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text1"> Can I court you Ms. Aleyah? </h1>
+        <img class="image" src="bear.gif">
+        <div class="container2">
+            <button class="no" id="rejected">
+                NO
+            </button>
+            <button class="yes" id="accepted">
+                YES
+            </button>
+        </div>
+    </div>
+    <script>
+        const rejected = document.getElementById('rejected');
+        const accepted = document.getElementById('accepted');
+      
+        rejected.addEventListener('click', function() {
+          window.location.href = 'rejected.html';
+        });
+        accepted.addEventListener('click', function() {
+          window.location.href = 'happy.html';
+        });
+      </script>
+</body>
+</html>
